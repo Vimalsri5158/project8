@@ -13,7 +13,11 @@ Find all the topics and tasks which are thought in the month of October
             Task: "Divison the two elements." (task_id: 118) - Topic: Python (topic_id: 08) - Deadline: 25-10-2020
 
 Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
-    db.company.find({ date: { $gt: '2020-10-15T00:00:00Z', $lte:'2020-10-31T23:59:59Z' } })
+    Query:-
+        SELECT drive_name, date FROM Company_Drives WHERE date BETWEEN '2020-10-15' AND '2020-10-31';
+    ANS:-
+        
+
 
 Find all the company drives and students who are appeared for the placement
     db.company.find({ contact_person: { $in: ['Alice Johnson', 'Carol Davis', 'Eva Martinez'] } })

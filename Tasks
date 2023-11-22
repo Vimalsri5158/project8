@@ -62,3 +62,4 @@
     Query:-
         SELECT COUNT(*) AS count_absent_no_task FROM Attendance a LEFT JOIN Tasks t ON a.user_id = t.user_id WHERE a.status = 'absent' AND (t.task_id IS NULL OR t.deadline NOT BETWEEN '2020-10-15' AND '2020-10-31');
     ANS:-
+        Sureshkumar

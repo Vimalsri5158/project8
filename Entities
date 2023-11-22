@@ -1,18 +1,177 @@
 Users
 
-1.user-1:-
+1.user1:-
     user-id   -79028
     name      - Vimalsri
     email     -vimal123@gmail.com
     role      -Student
-2.user-2:-
+2.user2:-
     user-id   -79145
     name      - Prakash
     email     -prakash456@gmail.com
     role      -Mentor 
-3.user-3:-
+3.user3:-
     user-id   -79024
     name      - Santhosh
     email     -sandy238@gmail.com
     role      -Student
+4.user4:-
+    user-id   -79032
+    name      - Sureshkumar
+    email     -suresh23@gmail.com
+    role      -Mentor
+5.user5:-
+    user-id   -79022
+    name      - Sudhir jena
+    email     -sudhir128@gmail.com
+    role      -Student
 
+
+
+Codekata
+
+1.codekatta
+    codekata_id         -2594
+    user_id             -79028
+    problems_solved     -10
+    date_completed      -18-10-2020
+2.codekatta
+    codekata_id         -2732
+    user_id             -79145
+    problems_solved     -15
+    date_completed      -20-10-2020
+3.codekatta
+    codekata_id         -2892
+    user_id             -79024
+    problems_solved     -13
+    date_completed      -15-10-2020
+4.codekatta
+    codekata_id         -2758
+    user_id             -79032
+    problems_solved     -08
+    date_completed      -30-10-2020
+5.codekatta
+    codekata_id         -3252
+    user_id             -79022
+    problems_solved     -11
+    date_completed      -19-10-2020
+
+
+
+Attendance
+
+1.Attendance
+    attendance_id  -01
+    user_id        -79028
+    status         -Present
+2.Attendance
+    attendance_id  -02
+    user_id        -79145
+    status         -Present
+3.Attendance
+    attendance_id  -03
+    user_id        -79024
+    status         -Present
+4.Attendance
+    attendance_id  -04
+    user_id        -79032
+    status         -Absent
+5.Attendance
+    attendance_id  -05
+    user_id        -79022
+    status         -Present
+
+
+
+Topics
+
+1.topics
+    topic_id     -05
+    topic_name   -javascript
+2.topics
+    topic_id     -08
+    topic_name   -Python
+3.topics
+    topic_id     -04
+    topic_name   -React
+4.topics
+    topic_id     -01
+    topic_name   -Html & CSS
+5.topics
+    topic_id     -10
+    topic_name   -NodeJS
+
+
+
+Tasks
+
+1.task
+    task_id     -101
+    topic_id    -01
+    task_name   -adding two values
+    deadline    -31-10-2020
+2.task
+    task_id     -105
+    topic_id    -05
+    task_name   -write a values seperate using array.
+    deadline    -28-10-2020
+3.task
+    task_id     -108
+    topic_id    -04
+    task_name   -Creating a dashboard using react components.
+    deadline    -30-10-2020
+4.task
+    task_id     -112
+    topic_id    -10
+    task_name   -How to files for backup fs using nodeJs.
+    deadline    -31-10-2020
+5.task
+    task_id     -118
+    topic_id    -08
+    task_name   -Divison the two elements.
+    deadline    -25-10-2020
+
+
+
+Company_Drives
+
+1.Company drive
+    drive_id      -55
+    drive_name    -Infosys
+2.Company drive
+    drive_id      -60
+    drive_name    -Microsoft
+3.Company drive
+    drive_id      -35
+    drive_name    -Wibro
+4.Company drive
+    drive_id      -62
+    drive_name    -Intel
+5.Company drive
+    drive_id      -28
+    drive_name    -Librean
+
+
+
+Mentors
+
+1.Mentors
+    mentor_id        -5502
+    name             -Sathish
+    mentee_count     -20
+2.Mentors
+    mentor_id        -5382
+    name             -Prakash
+    mentee_count     -30
+3.Mentors
+    mentor_id        -5206
+    name             -Vicky
+    mentee_count     -18
+4.Mentors
+    mentor_id        -5698
+    name             -Suresh
+    mentee_count     -40
+5.Mentors
+    mentor_id        -5576
+    name             -Vignesh
+    mentee_count     -32

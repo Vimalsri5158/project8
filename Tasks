@@ -43,7 +43,11 @@
     Query:-
         SELECT problems_solved FROM Codekata WHERE user_id = 123;
     ANS:-
-        
+        Vimalsri (user-id: 79028) - Solved 10 problems
+        Prakash (user-id: 79145) - Solved 15 problems
+        Santhosh (user-id: 79024) - Solved 13 problems
+        Sureshkumar (user-id: 79032) - Solved 8 problems
+        Sudhir jena (user-id: 79022) - Solved 11 problems
 
 
 Find all the mentors with who has the mentee's count more than 15

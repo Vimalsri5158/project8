@@ -40,7 +40,11 @@
             Sudhir jena (user-id: 79022)
 
 4.Find the number of problems solved by the user in codekata
-    db.codekatta.find().count();
+    Query:-
+        SELECT problems_solved FROM Codekata WHERE user_id = 123;
+    ANS:-
+        
+
 
 Find all the mentors with who has the mentee's count more than 15
     b.mentor.find({ student: { $gt: 15 } },{student: 1, _id:0})

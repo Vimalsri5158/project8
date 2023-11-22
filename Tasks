@@ -54,6 +54,11 @@
     Query:-
         SELECT * FROM Mentors WHERE mentee_count > 15;
     ANS:-
-        
-Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
-    db.task.find({status:{$in: ['Pending', 'In Progress']}})
+        Prakash (mentor-id: 5382) has 30 mentees.
+        Suresh (mentor-id: 5698) has 40 mentees.
+        Vignesh (mentor-id: 5576) has 32 mentees. 
+
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+    Query:-
+
+    ANS:-

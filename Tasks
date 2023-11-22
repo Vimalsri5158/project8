@@ -1,5 +1,16 @@
 Find all the topics and tasks which are thought in the month of October
-    db.task.find({deadline:{$gte:'2023-10-10', $lte:'2023-10-25'}})
+    Query:-
+        SELECT t.topic_name, ts.task_name FROM Topics t JOIN Tasks ts ON t.topic_id = ts.topic_id WHERE EXTRACT(MONTH FROM ts.deadline) = 10;
+    ANS:-
+        Topics Taught in October:
+            React (topic_id: 04)
+            NodeJS (topic_id: 10)
+            HTML & CSS (topic_id: 01)
+        Tasks with Deadlines in October:
+            Task: "write a values separate using array." (task_id: 105) - Topic: JavaScript (topic_id: 05) - Deadline: 28-10-2020
+            Task: "Creating a dashboard using React components." (task_id: 108) - Topic: React (topic_id: 04) - Deadline: 30-10-2020
+            Task: "How to files for backup fs using NodeJS." (task_id: 112) - Topic: NodeJS (topic_id: 10) - Deadline: 31-10-2020
+            Task: "Divison the two elements." (task_id: 118) - Topic: Python (topic_id: 08) - Deadline: 25-10-2020
 
 Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
     db.company.find({ date: { $gt: '2020-10-15T00:00:00Z', $lte:'2020-10-31T23:59:59Z' } })

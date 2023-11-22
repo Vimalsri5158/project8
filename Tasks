@@ -1,4 +1,4 @@
-Find all the topics and tasks which are thought in the month of October
+1.Find all the topics and tasks which are thought in the month of October
     Query:-
         SELECT t.topic_name, ts.task_name FROM Topics t JOIN Tasks ts ON t.topic_id = ts.topic_id WHERE EXTRACT(MONTH FROM ts.deadline) = 10;
     ANS:-
@@ -12,14 +12,16 @@ Find all the topics and tasks which are thought in the month of October
             Task: "How to files for backup fs using NodeJS." (task_id: 112) - Topic: NodeJS (topic_id: 10) - Deadline: 31-10-2020
             Task: "Divison the two elements." (task_id: 118) - Topic: Python (topic_id: 08) - Deadline: 25-10-2020
 
-Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
     Query:-
         SELECT drive_name, date FROM Company_Drives WHERE date BETWEEN '2020-10-15' AND '2020-10-31';
     ANS:-
-        
+        Wibro (drive_id: 35)
+        Intel (drive_id: 62)
+        Librean (drive_id: 28)
 
 
-Find all the company drives and students who are appeared for the placement
+3.Find all the company drives and students who are appeared for the placement
     db.company.find({ contact_person: { $in: ['Alice Johnson', 'Carol Davis', 'Eva Martinez'] } })
 
 Find the number of problems solved by the user in codekata

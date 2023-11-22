@@ -1,3 +1,39 @@
+     +-----------+       +------------+       +--------------+
+     |   Users   |       |  Codekata  |       |  Attendance  |
+     +-----------+       +------------+       +--------------+
+     | user_id   | 1---1 | codekata_id| 1---1 | attendance_id|
+     | name      |       | user_id    |       | user_id      |
+     | email     |       | problems_s |       | status       |
+     | role      |       | date_compl |       +--------------+
+     +-----------+       +------------+
+
+
+     +-----------+       +---------+
+     |   Topics  |       |  Tasks  |
+     +-----------+       +---------+
+     | topic_id  | 1---M | task_id |
+     | topic_name|       | topic_id|
+     +-----------+       | task_name|
+                         | deadline|
+                         +---------+
+
+
+                +--------------+
+                | CompanyDrive |
+                +--------------+
+                | drive_id     |
+                | drive_name   |
+                +--------------+
+
+
+                +---------+
+                | Mentors |
+                +---------+
+                | mentor_id|
+                | name     |
+                | mentee_c |
+                +---------+
+
 Users
 
 1.user1:-

@@ -50,8 +50,10 @@
         Sudhir jena (user-id: 79022) - Solved 11 problems
 
 
-Find all the mentors with who has the mentee's count more than 15
-    b.mentor.find({ student: { $gt: 15 } },{student: 1, _id:0})
+5.Find all the mentors with who has the mentee's count more than 15
+    Query:-
+
+    ANS:-
 
 Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
     db.task.find({status:{$in: ['Pending', 'In Progress']}})
